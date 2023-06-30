@@ -1,0 +1,33 @@
+.container {
+  background-color: white;
+  display: grid;
+  grid-template-areas: "one one two"
+  "three four two";
+  grid-gap: 50px;
+  padding: 50px;
+}
+.child {
+  background-color: grey;
+  text-align: center;
+  font-size: 100px;
+}
+#one{
+
+  /*  height: 150px;*/
+   grid-area: one;
+
+}
+#two{
+
+    /*height: 300px;*/
+    grid-area: two;
+
+}
+#three{
+
+    grid-area: three;
+}
+#four{
+
+    grid-area:four;
+}
